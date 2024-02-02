@@ -7,7 +7,7 @@
 .contenedor{
     display: grid;
     grid-template-columns: 190px 1fr;
-    grid-template-rows: 50px 1fr 50px;
+    grid-template-rows: 40px 1fr 40px;
     min-height: 100vh;
     grid-template-areas:    "nav nav"
                             "lateral productos" 
@@ -66,4 +66,10 @@ button{
     color: white;
     width: 65px;
     height: px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
 }
